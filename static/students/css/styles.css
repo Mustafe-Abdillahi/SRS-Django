@@ -1,0 +1,47 @@
+html, 
+body {
+    height: 100%; /* allow body to take full viewport height */
+    margin: 0;          /* remove default body margin */
+}
+.body{
+  background-color: red;
+}
+
+.greatcontainer {
+  /* margin: 0 ;
+  margin-right: 0; */
+  /* height: 100%;
+  width: 100%;  */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.middlecontainer{
+    width: 80%;
+}
+.lowest-container{
+    border: 0.2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.addbutton {
+    display: flex;           
+    justify-content: center;
+    align-items: center;     
+    height: 20px;         
+}
+table {
+       
+    min-width: 100px;
+    display: table;
+    flex-wrap: wrap;
+    overflow-x: hidden; 
+    border-collapse: none;     
+  }
+
+
+  td,th{
+    border-top: 1px solid rgb(161, 156, 156); /* Removes cell borders */
+    border-bottom: none;
+    padding: 10px; 
+  }
+
